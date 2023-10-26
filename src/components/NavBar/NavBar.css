@@ -1,0 +1,39 @@
+header {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color: azure;
+  }
+  header img {
+    max-width: 200px; 
+    height: auto;
+    background-color: azure;
+  }
+  nav{
+    background-color: azure;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px; 
+    background-color: azure;
+  }
+  .link {
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: aquamarine;
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+  }
+  
+  .link:hover {
+    background-color: aliceblue;
+   
+  }
+  

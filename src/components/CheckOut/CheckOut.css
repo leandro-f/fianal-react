@@ -1,0 +1,49 @@
+.cont_compra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .form_compra {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: white; 
+    padding: 20px; 
+  }
+  
+  .form_compra label {
+    margin-right: 0;
+    text-align: center;
+    background: white; 
+    color: rgb(88, 213, 213);
+    font-size: 20px;
+  }
+  
+  .form_compra input {
+    width: 100%;
+    margin-bottom: 10px;
+    background: white; 
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+    background-color: #3498db; 
+    color: white; 
+    transition: background-color 0.3s;
+    cursor: pointer; 
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white; 
+    color: #3498db; 
+  }
+  
