@@ -64,7 +64,7 @@ const Checkout = () => {
           )}
         </div>
       )}
-      {isCreatingOrder && <p>Creando Orden...</p>}
+      {isCreatingOrder && <p className='p'>Creando Orden...</p>}
       {isOrderCreated && !isCreatingOrder && (
         <div className='cheack-contain'>
           <h2>Orden creada con éxito</h2>
