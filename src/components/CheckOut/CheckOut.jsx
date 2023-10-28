@@ -11,6 +11,7 @@ const Checkout = () => {
   const [formData, setFormData] = useState({
     nombre: '',
     email: '',
+    emailConfirm: '', 
     telefono: '',
     items: cart.items,
   });
@@ -20,6 +21,11 @@ const Checkout = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (formData.email !== formData.emailConfirm) {
+      alert('Los correos electrónicos no coinciden.');
+      return;
+    }
 
     try {
       setIsCreatingOrder(true);
@@ -49,6 +55,8 @@ const Checkout = () => {
               <input type="text" id="nombre" name="nombre" value={formData.nombre} onChange={handleChange} required />
               <label htmlFor="email">Email:</label>
               <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
+              <label htmlFor="emailConfirm">Confirmar Email:</label>
+              <input type="email" id="emailConfirm" name="emailConfirm" value={formData.emailConfirm} onChange={handleChange} required />
               <label htmlFor="telefono">Teléfono:</label>
               <input type="text" id="telefono" name="telefono" value={formData.telefono} onChange={handleChange} required />
               <button type="submit">Crear Orden</button>
@@ -69,5 +77,6 @@ const Checkout = () => {
 };
 
 export default Checkout;
+
 
 

@@ -2,7 +2,7 @@
 
 ![HOEKXX Logo](./public/imagenes/logo.png)
 
-Bienvenido a HOEKXX, tu destino en línea para productos increíbles. Este e-commerce está construido con React y diseñado para ofrecer una experiencia de compra inigualable. ¡Descubre nuestras ofertas y encuentra exactamente lo que necesitas!
+Bienvenido a HOEKXX, tu futura tienda de ropa favorita. Este e-commerce está construido con React y diseñado para ofrecer una experiencia de compra inigualable. ¡Descubre nuestras ofertas y encuentra exactamente lo que necesitas!
 
 
 ## Características
@@ -27,7 +27,6 @@ Bienvenido a HOEKXX, tu destino en línea para productos increíbles. Este e-com
 Sigue estos pasos para ejecutar el proyecto en tu máquina:
 
 1. Para instalar las dependencias:
-
 - npm install
 
 2. Para iniciar la aplicación:
