@@ -7,6 +7,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+h1{
+  background-color: rgb(239, 236, 205);
+}
 *{
   background-color: rgb(239, 236, 205);
 }

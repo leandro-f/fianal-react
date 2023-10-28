@@ -8,8 +8,8 @@ const CartWidget = () => {
   return (
     <Link to="/carrito" className="carrito">
       <div className="cart-icon">
-        <img src="/carrito.svg" alt="cart-widget" />
-        <span>{cart.items.reduce((total, item) => total + item.quantity, 0)}</span>
+        <img src="/imagenes/carrito.svg" alt="cart-widget" />
+        <span className='contador'>{cart.items.reduce((total, item) => total + item.quantity, 0)}</span>
       </div>
     </Link>
   );

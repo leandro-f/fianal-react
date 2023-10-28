@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../Firebase/FirebaseConfig';
 import LogoCarga from '../LogoCarga/LogoCarga';
-
+import "./pages.css"
 const Remeras = () => {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -30,6 +30,8 @@ const Remeras = () => {
     loadProducts();
   }, []);
 
+  const displayedProducts = products.slice(2, 5);
+
   return (
     <main className='card_products'>
       <div>
@@ -39,7 +41,7 @@ const Remeras = () => {
         <LogoCarga />
       ) : (
         <ul>
-          {products.map((product) => (
+          {displayedProducts.map((product) => (
             <li key={product.id}>
               <img src={product.imgUrl} alt={product.nombre} />
               <div className='strong'>
@@ -57,4 +59,5 @@ const Remeras = () => {
 }
 
 export default Remeras;
+
 

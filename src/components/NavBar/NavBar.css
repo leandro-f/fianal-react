@@ -6,7 +6,7 @@ header {
     max-width: 100%;
     margin: auto;
     padding: 10px;
-    background-color: azure;
+    background-color: white;
   }
   header img {
     max-width: 200px; 
@@ -36,4 +36,3 @@ header {
     background-color: aliceblue;
    
   }
-  

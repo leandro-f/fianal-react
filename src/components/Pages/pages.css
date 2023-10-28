@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-
 }
-strong{
+
+strong {
   background-color: rgb(230, 176, 95);
 }
 
@@ -17,7 +17,6 @@ strong{
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  
 }
 
 .card_products li {
@@ -27,7 +26,6 @@ strong{
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
   background-color: rgb(230, 176, 95);
- 
 }
 
 .card_products img {
@@ -51,45 +49,7 @@ strong{
 
 
 
-/* Carrito */
 
-.cont_carrito {
-  padding: 20px;
-  border-radius: 5px;
-  width: 50%;
-  margin: 0 auto;
- }
- 
- .cont_carrito h1 {
-  text-align: center;
-  margin-bottom: 20px;
- }
- 
- .cont_carrito label {
-  display: block;
-  margin-top: 10px;
- }
- 
- .cont_carrito input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-top: 5px;
- }
- 
- .cont_carrito button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
- }
- 
- .cont_carrito button:hover {
-  background-color: #0056b3;
- }
+
+
+
